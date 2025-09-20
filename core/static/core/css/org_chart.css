@@ -1,0 +1,17 @@
+/* core/static/core/css/org_chart.css */
+.sidebar {
+    min-height: 100vh;
+    transition: margin-left 0.3s;
+    width: 250px;
+    position: fixed;
+}
+.sidebar.collapsed {
+    margin-left: -250px;
+}
+#content-area {
+    margin-left: 250px;
+    transition: margin-left 0.3s;
+}
+.collapsed + #content-area {
+    margin-left: 0;
+}
