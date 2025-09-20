@@ -1,48 +1,106 @@
-# HR Management Project - Development Log
+# HR Management Project
 
 ## Overview
 
-This document summarizes the steps taken to set up and develop the HR Management project.
+This project is a Django-based HR Management system designed to streamline HR processes, including employee management, organization charting, attendance tracking, payroll, and performance evaluation.
 
-## Steps Completed
+## Features
 
-1.  **Initial Setup:**
-    *   Created a Django project named `hr_management`.
-    *   Created several apps: `core`, `employees`, `organization`, `attendance`, `payroll`, `evaluation`, `documents`, and `api`.
-2.  **VSCode Configuration:**
-    *   Resolved an error related to environment variables in VSCode by enabling the `python.terminal.useEnvFile` setting.
-3.  **Database Migrations:**
-    *   Modified the `core/models.py` file to resolve reverse accessor clashes between `auth.User` and `core.User` models by adding `related_name` and `related_query_name` arguments to the `groups` and `user_permissions` fields.
-    *   Created and applied migrations to update the database schema.
-4.  **Static Files Configuration:**
-    *   Created `static` and `core/static` directories to store static files.
-    *   Created `core/static/core/css/org_chart.css` for styling the organization chart.
-    *   Created `core/static/core/js/org_chart.js` for drag-and-drop functionality.
-    *   Updated `hr_management/settings.py` to configure static files settings, including `STATIC_URL`, `STATIC_ROOT`, `STATICFILES_DIRS`, and `STATICFILES_FINDERS`.
-    *   Collected static files using `python3 manage.py collectstatic --noinput`.
-5.  **URL Configuration:**
-    *   Created `core/urls.py` to define URL patterns for the `core` app.
-    *   Updated `hr_management/urls.py` to include the `core` app's URL patterns.
-6.  **Views and Templates:**
-    *   Created a `home` view in `core/views.py` and a corresponding template `core/templates/core/home.html`.
-    *   Created an `org_chart` view in `core/views.py` and a corresponding template `core/templates/core/org_chart.html` with a basic split layout.
-7.  **Superuser Creation:**
-    *   Created a superuser account using `python3 manage.py createsuperuser`.
-8.  **Organization Chart Interface:**
-    *   Implemented a basic split layout in `core/templates/core/org_chart.html` with a menu on the left and a display area on the right.
-    *   Added sample departments and employees to `core/templates/core/org_chart.html`.
-    *   Implemented basic drag-and-drop functionality using JavaScript in `core/static/core/js/org_chart.js`.
+### Implemented Features:
+*   **Project Setup:** Django project and app structure initialized.
+*   **Database Migrations:** Initial migrations applied, including resolving model clashes.
+*   **Static Files Configuration:** Basic configuration for serving static files.
+*   **URL Configuration:** Basic URL routing for core app features.
+*   **Organization Chart Interface:**
+    *   Basic split layout for organization chart view.
+    *   Sample departments and employees displayed.
+    *   Basic drag-and-drop functionality for employees (currently not working correctly).
+*   **Superuser Account:** Created for admin access.
+
+### Planned Features:
+*   **Static File Serving:** Resolve 404 errors for CSS and JavaScript files.
+*   **Drag-and-Drop Functionality:** Debug and fix the drag-and-drop feature for employees.
+*   **Organization Management:** Implement functionality for creating, moving, and deleting departments.
+*   **Personnel Management:** Implement features for hiring, assigning, moving, and terminating employees.
+*   **Data Model Integration:** Integrate with Django models to manage real-time data for the organization chart and other features.
+*   **Styling and UI/UX Improvements:** Enhance the overall look and feel of the organization chart and other interfaces.
+
+## Technologies Used
+
+*   **Backend:** Python, Django
+*   **Frontend:** HTML, CSS, JavaScript
+*   **Database:** SQLite (default)
+*   **Other Libraries:** Django REST framework, django-filters, django-extensions, auditlog, encrypted-model-fields, mptt, allauth, allauth.socialaccount.providers.microsoft
+
+## Project Structure
+
+The project follows a standard Django project structure with multiple apps for different functionalities:
+*   `core`: Core functionalities, including the organization chart view and home page.
+*   `employees`: Manages employee data.
+*   `organization`: Manages organizational structure (departments).
+*   `attendance`: Tracks employee attendance.
+*   `payroll`: Handles payroll processing.
+*   `evaluation`: Manages performance evaluations.
+*   `documents`: For document management.
+*   `api`: For API-related functionalities.
+
+## Setup and Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/sysystems/project-hr.git
+    cd project-hr
+    ```
+2.  **Set up a virtual environment:**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Configure environment variables:**
+    Create a `.env` file in the project root and add your environment-specific settings, such as:
+    ```
+    SECRET_KEY='your-secret-key'
+    FIELD_ENCRYPTION_KEY='your-encryption-key'
+    DATABASE_URL='sqlite:///db.sqlite3'
+    ALLOWED_HOSTS='localhost,127.0.0.1'
+    AZURE_CLIENT_ID='your-azure-client-id'
+    AZURE_CLIENT_SECRET='your-azure-client-secret'
+    AZURE_TENANT_ID='your-azure-tenant-id'
+    ```
+5.  **Apply database migrations:**
+    ```bash
+    python3 manage.py makemigrations
+    python3 manage.py migrate
+    ```
+6.  **Create a superuser:**
+    ```bash
+    python3 manage.py createsuperuser
+    ```
+
+## Usage
+
+1.  **Run the development server:**
+    ```bash
+    python3 manage.py runserver
+    ```
+2.  **Access the application:**
+    Open your browser and navigate to `http://127.0.0.1:8000/`.
+    *   **Home Page:** `http://127.0.0.1:8000/`
+    *   **Organization Chart:** `http://127.0.0.1:8000/org_chart/`
 
 ## Current Issues
 
-*   The drag-and-drop functionality is not working correctly.
-*   There are still 404 errors for static files, indicating that the static files are not being served correctly.
+*   The drag-and-drop functionality for employees is not working correctly.
+*   Static files (CSS, JavaScript) are not being served correctly, resulting in 404 errors.
 
-## Next Steps
+## Contributing
 
-1.  Debug the drag-and-drop functionality in `core/static/core/js/org_chart.js` and `core/templates/core/org_chart.html`.
-2.  Troubleshoot the static files configuration in `hr_management/settings.py` and ensure that static files are being served correctly.
-3.  Implement the organization management menu functionality (create, move, delete departments).
-4.  Implement the personnel management section (hire, assign, move, terminate employees).
-5.  Implement the drag-and-drop interface for moving employees between departments.
-6.  Improve the styling and design of the organization chart interface.
+(Optional: Add contribution guidelines here if applicable)
+
+## License
+
+(Optional: Add license information here if applicable)
