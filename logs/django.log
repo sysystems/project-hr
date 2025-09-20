@@ -269,3 +269,23 @@ INFO 2025-09-20 21:06:29,076 autoreload 20984 8428718080 Watching for file chang
 INFO 2025-09-20 21:06:57,363 basehttp 20984 6163804160 "GET /org_chart/ HTTP/1.1" 200 2120
 INFO 2025-09-20 21:06:57,496 basehttp 20984 6163804160 "GET /static/core/css/org_chart.css HTTP/1.1" 304 0
 INFO 2025-09-20 21:06:57,500 basehttp 20984 6180630528 "GET /static/core/js/org_chart.js HTTP/1.1" 200 3756
+INFO 2025-09-20 21:13:47,467 autoreload 21530 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:15:04,349 autoreload 21822 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:21:46,117 autoreload 22200 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:22:24,343 autoreload 22529 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:22:50,856 basehttp 22529 6164590592 "GET /org_chart/ HTTP/1.1" 200 1784
+INFO 2025-09-20 21:22:51,101 basehttp 22529 6164590592 "GET /static/core/css/org_chart.css HTTP/1.1" 200 461
+INFO 2025-09-20 21:22:51,105 basehttp 22529 6181416960 "GET /static/core/js/org_chart.js HTTP/1.1" 200 6692
+INFO 2025-09-20 21:27:50,695 autoreload 22679 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:30:41,793 autoreload 22529 8428718080 /Users/sooyong/sysystem/project_hr/api/models.py changed, reloading.
+INFO 2025-09-20 21:30:41,794 autoreload 19904 8428718080 /Users/sooyong/sysystem/project_hr/api/models.py changed, reloading.
+INFO 2025-09-20 21:30:42,795 autoreload 22940 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:30:42,796 autoreload 22939 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:31:24,605 autoreload 22940 8428718080 /Users/sooyong/sysystem/project_hr/api/models.py changed, reloading.
+INFO 2025-09-20 21:31:24,606 autoreload 22939 8428718080 /Users/sooyong/sysystem/project_hr/api/models.py changed, reloading.
+INFO 2025-09-20 21:31:26,068 autoreload 23067 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:31:26,068 autoreload 23066 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:32:18,175 autoreload 23307 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:32:52,373 autoreload 23637 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:46:19,456 autoreload 24057 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:46:52,457 autoreload 24388 8428718080 Watching for file changes with StatReloader

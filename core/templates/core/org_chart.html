@@ -27,12 +27,31 @@
             <div id="org-chart-container">
                 <!-- 조직도 데이터가 여기에 표시됩니다. -->
             </div>
+            <div id="attendance-section" style="margin-top: 20px;">
+                <h2>Attendance</h2>
+                <button id="check-in-button" onclick="checkIn()">출근</button>
+                <button id="check-out-button" onclick="checkOut()" style="display: none;">퇴근</button>
+            </div>
         </div>
     </div>
     <script>
         function handleMenuClick(action) {
             alert('Clicked: ' + action);
             // 여기에 선택된 메뉴 항목에 대한 동작을 구현합니다.
+        }
+
+        function checkIn() {
+            // 출근 처리 로직
+            alert('출근!');
+            document.getElementById('check-in-button').style.display = 'none';
+            document.getElementById('check-out-button').style.display = 'inline-block';
+        }
+
+        function checkOut() {
+            // 퇴근 처리 로직
+            alert('퇴근!');
+            document.getElementById('check-in-button').style.display = 'inline-block';
+            document.getElementById('check-out-button').style.display = 'none';
         }
     </script>
     <script src="{% static 'core/js/org_chart.js' %}"></script>

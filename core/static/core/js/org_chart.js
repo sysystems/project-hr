@@ -1,3 +1,16 @@
+// 조직도 데이터 (임시)
+const orgChartData = {
+    departments: [
+        { id: 1, name: 'Department 1', employees: [1, 2] },
+        { id: 2, name: 'Department 2', employees: [3] }
+    ],
+    employees: [
+        { id: 1, name: 'Employee 1', title: 'Manager', photo: '', department: 1, details: { phone: '123-456-7890', email: 'employee1@example.com' } },
+        { id: 2, name: 'Employee 2', title: 'Developer', photo: '', department: 1, details: { phone: '987-654-3210', email: 'employee2@example.com' } },
+        { id: 3, name: 'Employee 3', title: 'Designer', photo: '', department: 2, details: { phone: '555-123-4567', email: 'employee3@example.com' } }
+    ]
+};
+
 function handleMenuClick(action) {
     // alert('Clicked: ' + action);
     // 여기에 선택된 메뉴 항목에 대한 동작을 구현합니다.
@@ -85,17 +98,17 @@ function createDepartment() {
 }
 
 // 조직도 데이터 (임시)
-const orgChartData = {
-    departments: [
-        { id: 1, name: 'Department 1', employees: [1, 2] },
-        { id: 2, name: 'Department 2', employees: [3] }
-    ],
-    employees: [
-        { id: 1, name: 'Employee 1', title: 'Manager', photo: '', department: 1, details: { phone: '123-456-7890', email: 'employee1@example.com' } },
-        { id: 2, name: 'Employee 2', title: 'Developer', photo: '', department: 1, details: { phone: '987-654-3210', email: 'employee2@example.com' } },
-        { id: 3, name: 'Employee 3', title: 'Designer', photo: '', department: 2, details: { phone: '555-123-4567', email: 'employee3@example.com' } }
-    ]
-};
+// const orgChartData = {
+//     departments: [
+//         { id: 1, name: 'Department 1', employees: [1, 2] },
+//         { id: 2, name: 'Department 2', employees: [3] }
+//     ],
+//     employees: [
+//         { id: 1, name: 'Employee 1', title: 'Manager', photo: '', department: 1, details: { phone: '123-456-7890', email: 'employee1@example.com' } },
+//         { id: 2, name: 'Employee 2', title: 'Developer', photo: '', department: 1, details: { phone: '987-654-3210', email: 'employee2@example.com' } },
+//         { id: 3, name: 'Employee 3', title: 'Designer', photo: '', department: 2, details: { phone: '555-123-4567', email: 'employee3@example.com' } }
+//     ]
+// };
 
 function renderOrgChart() {
     const container = document.getElementById('org-chart-container');
