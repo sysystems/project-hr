@@ -1,0 +1,193 @@
+INFO 2025-09-20 11:14:36,638 autoreload 89140 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:15:20,925 autoreload 89140 8428718080 /Users/sooyong/sysystem/project hr/core/models.py changed, reloading.
+INFO 2025-09-20 11:15:21,331 autoreload 89183 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:16:01,640 autoreload 89877 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:16:05,198 autoreload 89961 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:16:45,558 basehttp 89961 6128070656 "GET / HTTP/1.1" 200 10740
+WARNING 2025-09-20 11:16:46,031 log 89961 6128070656 Not Found: /favicon.ico
+WARNING 2025-09-20 11:16:46,032 basehttp 89961 6128070656 "GET /favicon.ico HTTP/1.1" 404 2117
+INFO 2025-09-20 11:17:00,038 autoreload 89961 8428718080 /Users/sooyong/sysystem/project hr/hr_management/urls.py changed, reloading.
+INFO 2025-09-20 11:17:00,041 autoreload 89183 8428718080 /Users/sooyong/sysystem/project hr/hr_management/urls.py changed, reloading.
+INFO 2025-09-20 11:17:00,484 autoreload 90050 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:17:00,485 autoreload 90051 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:19:15,211 autoreload 90387 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:19:43,682 basehttp 90387 6199422976 "GET / HTTP/1.1" 200 139
+WARNING 2025-09-20 11:19:43,728 log 90387 6199422976 Not Found: /favicon.ico
+WARNING 2025-09-20 11:19:43,728 basehttp 90387 6199422976 "GET /favicon.ico HTTP/1.1" 404 2277
+INFO 2025-09-20 11:20:01,669 basehttp 90387 6199422976 "GET / HTTP/1.1" 200 139
+WARNING 2025-09-20 11:20:02,070 log 90387 6199422976 Not Found: /favicon.ico
+WARNING 2025-09-20 11:20:02,071 basehttp 90387 6199422976 "GET /favicon.ico HTTP/1.1" 404 2277
+WARNING 2025-09-20 11:20:02,074 log 90387 6216249344 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2025-09-20 11:20:02,074 basehttp 90387 6216249344 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2340
+WARNING 2025-09-20 11:20:02,140 log 90387 6216249344 Not Found: /apple-touch-icon.png
+WARNING 2025-09-20 11:20:02,140 basehttp 90387 6216249344 "GET /apple-touch-icon.png HTTP/1.1" 404 2304
+INFO 2025-09-20 11:21:42,234 autoreload 91100 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:22:09,883 basehttp 91100 6164754432 "GET /admin HTTP/1.1" 301 0
+INFO 2025-09-20 11:22:09,894 basehttp 91100 6164754432 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-20 11:22:09,908 basehttp 91100 6164754432 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4217
+INFO 2025-09-20 11:22:09,937 basehttp 91100 6198407168 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-09-20 11:22:09,937 basehttp 91100 6248886272 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-09-20 11:22:09,939 basehttp 91100 6215233536 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-09-20 11:22:09,939 basehttp 91100 6181580800 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-09-20 11:22:09,941 basehttp 91100 6232059904 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-09-20 11:22:09,941 basehttp 91100 6164754432 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-09-20 11:22:09,941 basehttp 91100 6215233536 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-09-20 11:22:09,994 log 91100 6215233536 Not Found: /favicon.ico
+WARNING 2025-09-20 11:22:09,994 basehttp 91100 6215233536 "GET /favicon.ico HTTP/1.1" 404 2277
+INFO 2025-09-20 11:22:32,782 basehttp 91100 6164754432 "GET / HTTP/1.1" 200 139
+WARNING 2025-09-20 11:22:38,866 log 91100 6198407168 Not Found: /apple-touch-icon.png
+WARNING 2025-09-20 11:22:38,867 log 91100 6181580800 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2025-09-20 11:22:38,868 basehttp 91100 6181580800 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2340
+WARNING 2025-09-20 11:22:38,868 log 91100 6215233536 Not Found: /favicon.ico
+WARNING 2025-09-20 11:22:38,868 basehttp 91100 6198407168 "GET /apple-touch-icon.png HTTP/1.1" 404 2304
+WARNING 2025-09-20 11:22:38,869 basehttp 91100 6215233536 "GET /favicon.ico HTTP/1.1" 404 2277
+INFO 2025-09-20 11:22:42,793 basehttp 91100 6232059904 "GET / HTTP/1.1" 200 139
+INFO 2025-09-20 11:23:11,551 basehttp 91100 6164754432 "GET /admin HTTP/1.1" 301 0
+INFO 2025-09-20 11:23:11,558 basehttp 91100 6164754432 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-20 11:23:11,569 basehttp 91100 6164754432 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4217
+INFO 2025-09-20 11:23:11,628 basehttp 91100 6164754432 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-09-20 11:23:11,636 basehttp 91100 6181580800 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-09-20 11:23:11,637 basehttp 91100 6215233536 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-09-20 11:23:11,637 basehttp 91100 6248886272 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-09-20 11:23:11,638 basehttp 91100 6265712640 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-09-20 11:23:11,640 basehttp 91100 6198407168 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-09-20 11:23:11,641 basehttp 91100 6164754432 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+WARNING 2025-09-20 11:23:14,025 log 91100 6232059904 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2025-09-20 11:23:14,026 log 91100 6282539008 Not Found: /apple-touch-icon.png
+WARNING 2025-09-20 11:23:14,027 log 91100 6299365376 Not Found: /favicon.ico
+WARNING 2025-09-20 11:23:14,027 basehttp 91100 6232059904 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2340
+WARNING 2025-09-20 11:23:14,027 basehttp 91100 6282539008 "GET /apple-touch-icon.png HTTP/1.1" 404 2304
+WARNING 2025-09-20 11:23:14,027 basehttp 91100 6299365376 "GET /favicon.ico HTTP/1.1" 404 2277
+INFO 2025-09-20 11:23:18,677 basehttp 91100 6232059904 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4217
+INFO 2025-09-20 11:23:18,737 basehttp 91100 6232059904 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-09-20 11:23:18,740 basehttp 91100 6366670848 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-09-20 11:23:18,741 basehttp 91100 6316191744 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-09-20 11:23:18,741 basehttp 91100 6349844480 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-09-20 11:23:18,741 basehttp 91100 6333018112 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-09-20 11:23:18,741 basehttp 91100 6383497216 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-09-20 11:23:18,742 basehttp 91100 6232059904 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-09-20 11:23:23,379 basehttp 91100 6181580800 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-09-20 11:23:23,402 basehttp 91100 6215233536 "GET /admin/ HTTP/1.1" 200 9306
+INFO 2025-09-20 11:23:23,410 basehttp 91100 6265712640 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-09-20 11:23:23,428 basehttp 91100 6248886272 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-20 11:23:23,429 basehttp 91100 6164754432 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-20 11:24:43,720 basehttp 91100 6164754432 "GET /admin/auth/group/ HTTP/1.1" 200 10158
+INFO 2025-09-20 11:24:43,738 basehttp 91100 6164754432 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-09-20 11:24:43,748 basehttp 91100 6215233536 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-20 11:24:43,750 basehttp 91100 6164754432 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-09-20 11:24:43,750 basehttp 91100 6232059904 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-09-20 11:24:43,751 basehttp 91100 6248886272 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-09-20 11:24:43,754 basehttp 91100 6215233536 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-20 11:24:43,759 basehttp 91100 6181580800 "GET /admin/jsi18n/ HTTP/1.1" 200 9131
+INFO 2025-09-20 11:24:43,759 basehttp 91100 6248886272 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-20 11:24:43,760 basehttp 91100 6164754432 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-09-20 11:24:43,763 basehttp 91100 6198407168 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-09-20 11:24:43,763 basehttp 91100 6232059904 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-09-20 11:24:43,764 basehttp 91100 6215233536 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-09-20 11:24:43,801 basehttp 91100 6181580800 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-09-20 11:24:49,854 basehttp 91100 6248886272 "GET /admin/ HTTP/1.1" 200 9306
+INFO 2025-09-20 11:24:54,821 basehttp 91100 6232059904 "GET /admin/auth/user/ HTTP/1.1" 200 13531
+INFO 2025-09-20 11:24:54,839 basehttp 91100 6215233536 "GET /admin/jsi18n/ HTTP/1.1" 200 9131
+INFO 2025-09-20 11:24:54,840 basehttp 91100 6181580800 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-09-20 11:24:54,862 basehttp 91100 6164754432 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-09-20 11:25:32,449 autoreload 91100 8428718080 /Users/sooyong/sysystem/project hr/core/admin.py changed, reloading.
+INFO 2025-09-20 11:25:32,670 autoreload 90051 8428718080 /Users/sooyong/sysystem/project hr/core/admin.py changed, reloading.
+INFO 2025-09-20 11:25:32,672 autoreload 90050 8428718080 /Users/sooyong/sysystem/project hr/core/admin.py changed, reloading.
+INFO 2025-09-20 11:25:33,055 autoreload 91289 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:25:33,055 autoreload 91284 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:25:33,055 autoreload 91288 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:25:44,744 basehttp 91288 6162313216 "GET /admin HTTP/1.1" 301 0
+INFO 2025-09-20 11:25:44,770 basehttp 91288 6162313216 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-20 11:25:44,784 basehttp 91288 6162313216 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4217
+INFO 2025-09-20 11:25:44,813 basehttp 91288 6179139584 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-09-20 11:25:44,814 basehttp 91288 6246445056 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-09-20 11:25:44,815 basehttp 91288 6229618688 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-09-20 11:25:44,815 basehttp 91288 6195965952 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-09-20 11:25:44,816 basehttp 91288 6212792320 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-09-20 11:25:44,817 basehttp 91288 6179139584 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-09-20 11:25:44,817 basehttp 91288 6162313216 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+WARNING 2025-09-20 11:25:44,881 log 91288 6179139584 Not Found: /favicon.ico
+WARNING 2025-09-20 11:25:44,883 basehttp 91288 6179139584 "GET /favicon.ico HTTP/1.1" 404 2277
+INFO 2025-09-20 11:26:11,971 basehttp 91288 6162313216 "GET /admin/ HTTP/1.1" 200 9964
+INFO 2025-09-20 11:26:12,001 basehttp 91288 6162313216 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:12,005 basehttp 91288 6179139584 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:12,006 basehttp 91288 6162313216 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:12,006 basehttp 91288 6246445056 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:12,006 basehttp 91288 6195965952 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:12,006 basehttp 91288 6229618688 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:12,006 basehttp 91288 6212792320 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:12,012 basehttp 91288 6162313216 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:12,013 basehttp 91288 6179139584 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-09-20 11:26:14,304 basehttp 91288 6195965952 "GET /admin/core/department/ HTTP/1.1" 200 10376
+INFO 2025-09-20 11:26:14,322 basehttp 91288 6212792320 "GET /admin/jsi18n/ HTTP/1.1" 200 9131
+INFO 2025-09-20 11:26:16,718 basehttp 91288 6162313216 "GET /admin/core/department/add/ HTTP/1.1" 200 15231
+INFO 2025-09-20 11:26:16,731 basehttp 91288 6179139584 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2025-09-20 11:26:16,733 basehttp 91288 6212792320 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-20 11:26:16,736 basehttp 91288 6195965952 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-20 11:26:16,739 basehttp 91288 6229618688 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2025-09-20 11:26:16,740 basehttp 91288 6246445056 "GET /admin/jsi18n/ HTTP/1.1" 200 9131
+INFO 2025-09-20 11:26:16,742 basehttp 91288 6162313216 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-20 11:26:27,880 basehttp 91288 6179139584 "POST /admin/core/department/add/ HTTP/1.1" 200 15422
+INFO 2025-09-20 11:26:27,900 basehttp 91288 6212792320 "GET /admin/jsi18n/ HTTP/1.1" 200 9131
+INFO 2025-09-20 11:27:32,506 autoreload 91288 8428718080 /Users/sooyong/sysystem/project hr/core/models.py changed, reloading.
+INFO 2025-09-20 11:27:32,510 autoreload 91284 8428718080 /Users/sooyong/sysystem/project hr/core/models.py changed, reloading.
+INFO 2025-09-20 11:27:32,516 autoreload 91289 8428718080 /Users/sooyong/sysystem/project hr/core/models.py changed, reloading.
+INFO 2025-09-20 11:27:33,194 autoreload 91395 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:27:33,194 autoreload 91400 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:27:33,194 autoreload 91396 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:30:09,057 autoreload 91396 8428718080 /Users/sooyong/sysystem/project hr/core/views.py changed, reloading.
+INFO 2025-09-20 11:30:09,058 autoreload 91400 8428718080 /Users/sooyong/sysystem/project hr/core/views.py changed, reloading.
+INFO 2025-09-20 11:30:09,061 autoreload 91395 8428718080 /Users/sooyong/sysystem/project hr/core/views.py changed, reloading.
+INFO 2025-09-20 11:30:09,597 autoreload 91629 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:30:09,598 autoreload 91627 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:30:09,598 autoreload 91628 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:30:20,445 autoreload 91628 8428718080 /Users/sooyong/sysystem/project hr/core/urls.py changed, reloading.
+INFO 2025-09-20 11:30:20,445 autoreload 91629 8428718080 /Users/sooyong/sysystem/project hr/core/urls.py changed, reloading.
+INFO 2025-09-20 11:30:20,446 autoreload 91627 8428718080 /Users/sooyong/sysystem/project hr/core/urls.py changed, reloading.
+INFO 2025-09-20 11:30:20,881 autoreload 91658 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:30:20,882 autoreload 91659 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:30:20,882 autoreload 91660 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:31:14,473 basehttp 91660 6199668736 "GET /org_chart/ HTTP/1.1" 200 1509
+WARNING 2025-09-20 11:31:14,530 log 91660 6199668736 Not Found: /favicon.ico
+WARNING 2025-09-20 11:31:14,530 basehttp 91660 6199668736 "GET /favicon.ico HTTP/1.1" 404 2452
+INFO 2025-09-20 11:35:00,115 basehttp 91660 6199668736 "GET /org_chart/ HTTP/1.1" 200 900
+WARNING 2025-09-20 11:35:00,134 basehttp 91660 6199668736 "GET /static/core/css/org_chart.css HTTP/1.1" 404 1825
+WARNING 2025-09-20 11:35:00,156 log 91660 6199668736 Not Found: /favicon.ico
+WARNING 2025-09-20 11:35:00,158 basehttp 91660 6199668736 "GET /favicon.ico HTTP/1.1" 404 2452
+INFO 2025-09-20 11:37:25,777 basehttp 91660 6199668736 "GET /org_chart/ HTTP/1.1" 200 1401
+WARNING 2025-09-20 11:37:25,799 basehttp 91660 6216495104 "GET /static/core/js/org_chart.js HTTP/1.1" 404 1819
+WARNING 2025-09-20 11:37:25,799 basehttp 91660 6199668736 "GET /static/core/css/org_chart.css HTTP/1.1" 404 1825
+WARNING 2025-09-20 11:37:25,823 log 91660 6199668736 Not Found: /favicon.ico
+WARNING 2025-09-20 11:37:25,823 basehttp 91660 6199668736 "GET /favicon.ico HTTP/1.1" 404 2452
+INFO 2025-09-20 11:40:16,667 autoreload 91660 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:40:16,671 autoreload 91659 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:40:16,673 autoreload 91658 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:40:17,275 autoreload 92504 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:40:17,275 autoreload 92505 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:40:17,275 autoreload 92506 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:44:15,334 autoreload 92504 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:44:15,336 autoreload 92505 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:44:15,339 autoreload 92506 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:44:15,891 autoreload 93086 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:44:15,891 autoreload 93088 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:44:15,891 autoreload 93087 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:46:15,157 autoreload 93088 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:46:15,161 autoreload 93086 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:46:15,166 autoreload 93087 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:46:15,668 autoreload 93427 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:46:15,669 autoreload 93426 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:46:15,669 autoreload 93428 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:47:59,765 basehttp 93427 6190002176 "GET /org_chart/ HTTP/1.1" 200 1401
+INFO 2025-09-20 11:47:59,818 basehttp 93427 6206828544 "GET /static/core/js/org_chart.js HTTP/1.1" 200 847
+INFO 2025-09-20 11:47:59,818 basehttp 93427 6190002176 "GET /static/core/css/org_chart.css HTTP/1.1" 200 682
+WARNING 2025-09-20 11:47:59,872 log 93427 6206828544 Not Found: /favicon.ico
+WARNING 2025-09-20 11:47:59,872 basehttp 93427 6206828544 "GET /favicon.ico HTTP/1.1" 404 2452
+INFO 2025-09-20 11:53:19,362 autoreload 93427 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:53:19,385 autoreload 93426 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:53:19,388 autoreload 93428 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:53:19,881 autoreload 93914 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:53:19,881 autoreload 93915 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:53:19,881 autoreload 93916 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 11:56:21,456 autoreload 93916 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:56:21,461 autoreload 93915 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
+INFO 2025-09-20 11:56:21,463 autoreload 93914 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.

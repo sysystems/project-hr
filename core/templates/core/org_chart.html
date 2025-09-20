@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HR Management - Organization Chart</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'core/css/org_chart.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="menu rounded-box">
+            <h2>Organization Management</h2>
+            <ul>
+                <li>Create Department</li>
+                <li>Move Department</li>
+                <li>Delete Department</li>
+            </ul>
+            <h2>Personnel Management</h2>
+            <ul>
+                <li>Hire Employee</li>
+                <li>Assign Employee</li>
+                <li>Move Employee</li>
+                <li>Terminate Employee</li>
+            </ul>
+        </div>
+        <div class="content rounded-box">
+            <h1>Organization Chart</h1>
+            <p>Drag and drop employees to move them between departments.</p>
+            <div class="department rounded-box" id="department1">
+                <h3>Department 1</h3>
+                <div class="employee rounded-box" id="employee1" draggable="true">Employee 1</div>
+            </div>
+            <div class="department rounded-box" id="department2">
+                <h3>Department 2</h3>
+                <div class="employee rounded-box" id="employee2" draggable="true">Employee 2</div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'core/js/org_chart.js' %}"></script>
+</body>
+</html>
