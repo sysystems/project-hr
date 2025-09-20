@@ -242,3 +242,9 @@ INFO 2025-09-20 16:20:27,941 autoreload 3968 8428718080 /Users/sooyong/sysystem/
 INFO 2025-09-20 16:20:28,322 autoreload 4085 8428718080 Watching for file changes with StatReloader
 INFO 2025-09-20 16:20:43,279 autoreload 4085 8428718080 /Users/sooyong/sysystem/project hr/hr_management/settings.py changed, reloading.
 INFO 2025-09-20 16:20:43,628 autoreload 4201 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 20:53:04,271 autoreload 18153 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 20:53:26,095 basehttp 18153 6171029504 "GET /org_chart/ HTTP/1.1" 200 1401
+INFO 2025-09-20 20:53:27,024 basehttp 18153 6171029504 "GET /static/core/css/org_chart.css HTTP/1.1" 200 324
+INFO 2025-09-20 20:53:27,025 basehttp 18153 6187855872 "GET /static/core/js/org_chart.js HTTP/1.1" 200 1375
+WARNING 2025-09-20 20:53:27,170 log 18153 6171029504 Not Found: /favicon.ico
+WARNING 2025-09-20 20:53:27,171 basehttp 18153 6171029504 "GET /favicon.ico HTTP/1.1" 404 2452

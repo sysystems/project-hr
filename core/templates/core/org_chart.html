@@ -6,23 +6,23 @@
     <link rel="stylesheet" href="{% static 'core/css/org_chart.css' %}">
 </head>
 <body>
-    <div class="container">
-        <div class="menu rounded-box">
+    <div class="container" style="display: flex;">
+        <div class="menu rounded-box" style="width: 200px; margin-right: 20px;">
             <h2>Organization Management</h2>
             <ul>
-                <li>Create Department</li>
-                <li>Move Department</li>
-                <li>Delete Department</li>
+                <li><a href="#" onclick="handleMenuClick('create_department')">Create Department</a></li>
+                <li><a href="#" onclick="handleMenuClick('move_department')">Move Department</a></li>
+                <li><a href="#" onclick="handleMenuClick('delete_department')">Delete Department</a></li>
             </ul>
             <h2>Personnel Management</h2>
             <ul>
-                <li>Hire Employee</li>
-                <li>Assign Employee</li>
-                <li>Move Employee</li>
-                <li>Terminate Employee</li>
+                <li><a href="#" onclick="handleMenuClick('hire_employee')">Hire Employee</a></li>
+                <li><a href="#" onclick="handleMenuClick('assign_employee')">Assign Employee</a></li>
+                <li><a href="#" onclick="handleMenuClick('move_employee')">Move Employee</a></li>
+                <li><a href="#" onclick="handleMenuClick('terminate_employee')">Terminate Employee</a></li>
             </ul>
         </div>
-        <div class="content rounded-box">
+        <div class="content rounded-box" style="flex: 1;">
             <h1>Organization Chart</h1>
             <p>Drag and drop employees to move them between departments.</p>
             <div class="department rounded-box" id="department1">
@@ -35,6 +35,12 @@
             </div>
         </div>
     </div>
+    <script>
+        function handleMenuClick(action) {
+            alert('Clicked: ' + action);
+            // 여기에 선택된 메뉴 항목에 대한 동작을 구현합니다.
+        }
+    </script>
     <script src="{% static 'core/js/org_chart.js' %}"></script>
 </body>
 </html>

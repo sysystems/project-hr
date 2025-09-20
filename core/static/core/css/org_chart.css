@@ -1,4 +1,15 @@
-/* core/static/core/css/org_chart.css */
+/* core/static/core/css/org_chart.css */.container {
+    display: flex;
+}
+
+.menu {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.content {
+    flex: 1;
+}
 .sidebar {
     min-height: 100vh;
     transition: margin-left 0.3s;

@@ -1,40 +1,31 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const employees = document.querySelectorAll('.employee');
-    const departments = document.querySelectorAll('.department');
-
-    employees.forEach(employee => {
-        employee.addEventListener('dragstart', dragStart);
-    });
-
-    departments.forEach(department => {
-        department.addEventListener('dragover', dragOver);
-        department.addEventListener('drop', drop);
-    });
-
-    function dragStart(event) {
-        event.dataTransfer.setData('text', event.target.id);
+function handleMenuClick(action) {
+    alert('Clicked: ' + action);
+    // 여기에 선택된 메뉴 항목에 대한 동작을 구현합니다.
+    // 예시: 조직도 영역의 내용을 변경
+    const contentArea = document.querySelector('.content');
+    switch (action) {
+        case 'create_department':
+            contentArea.innerHTML = '<h2>Create Department</h2><p>Creating a new department...</p>';
+            break;
+        case 'move_department':
+            contentArea.innerHTML = '<h2>Move Department</h2><p>Moving a department...</p>';
+            break;
+        case 'delete_department':
+            contentArea.innerHTML = '<h2>Delete Department</h2><p>Deleting a department...</p>';
+            break;
+        case 'hire_employee':
+            contentArea.innerHTML = '<h2>Hire Employee</h2><p>Hiring a new employee...</p>';
+            break;
+        case 'assign_employee':
+            contentArea.innerHTML = '<h2>Assign Employee</h2><p>Assigning an employee...</p>';
+            break;
+        case 'move_employee':
+            contentArea.innerHTML = '<h2>Move Employee</h2><p>Moving an employee...</p>';
+            break;
+        case 'terminate_employee':
+            contentArea.innerHTML = '<h2>Terminate Employee</h2><p>Terminating an employee...</p>';
+            break;
+        default:
+            contentArea.innerHTML = '<h1>Organization Chart</h1><p>Drag and drop employees to move them between departments.</p>';
     }
-
-    function dragOver(event) {
-        event.preventDefault();
-    }
-
-    function drop(event) {
-        event.preventDefault();
-        const data = event.dataTransfer.getData('text');
-        const employee = document.getElementById(data);
-
-        // Find the closest department element to append the employee to
-        let targetDepartment = event.target;
-        while (targetDepartment && !targetDepartment.classList.contains('department')) {
-            targetDepartment = targetDepartment.parentElement;
-        }
-
-        if (targetDepartment) {
-            targetDepartment.appendChild(employee);
-            console.log(`Employee ${data} dropped into department ${targetDepartment.id}`);
-        } else {
-            console.error(`Could not find department to drop employee ${data} into.`);
-        }
-    }
-});
+}
