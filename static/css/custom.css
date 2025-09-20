@@ -1,0 +1,16 @@
+.sidebar {
+    min-height: 100vh;  /* 화면 전체 높이 */
+    transition: margin-left 0.3s;  /* 부드러운 애니메이션 */
+    width: 250px;  /* 메뉴 너비 */
+    position: fixed;  /* 고정 위치 */
+}
+.sidebar.collapsed {
+    margin-left: -250px;  /* 숨김 상태 */
+}
+#content-area {
+    margin-left: 250px;  /* 메뉴 너비만큼 오른쪽 이동 */
+    transition: margin-left 0.3s;
+}
+.collapsed + #content-area {
+    margin-left: 0;  /* 메뉴 숨김 시 전체 채우기 */
+}

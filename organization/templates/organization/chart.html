@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <!-- 왼쪽 메뉴 -->
+        <div class="col-md-3 bg-light sidebar">
+            <nav id="sidebar">
+                <h3>조직 관리 메뉴</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="menu-item" data-action="create">조직 생성</a></li>
+                    <li><a href="#" class="menu-item" data-action="move">조직 이동</a></li>
+                    <li><a href="#" class="menu-item" data-action="delete">조직 삭제</a></li>
+                    <li><a href="#" class="menu-item" data-action="assign">인원 배치</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- 오른쪽 동적 콘텐츠 -->
+        <div class="col-md-9">
+            <div id="content-area">
+                <button id="sidebar-toggle" class="btn btn-primary mb-3">메뉴 토글</button>
+                <div id="org-chart"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+<link rel="stylesheet" href="{% static 'core/css/org_chart.css' %}">
+{% endblock %}

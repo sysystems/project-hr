@@ -31,7 +31,7 @@ FIELD_ENCRYPTION_KEY = env('FIELD_ENCRYPTION_KEY')
 SECRET_KEY = env('SECRET_KEY', default='django-insecure-c&fxmh31r07j6d-mg&5e23mtmt2+*)ks8%ej79@i3$zc_&ds2!')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env.bool('DEBUG', default=True)
+DEBUG = True
 
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['localhost', '127.0.0.1'])
 
@@ -145,11 +145,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     BASE_DIR / 'core/static',
 ]
+STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
