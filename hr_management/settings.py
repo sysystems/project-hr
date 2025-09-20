@@ -242,12 +242,12 @@ LOGGING = {
     },
     'root': {
         'handlers': ['file'],
-        'level': 'INFO',
+        'level': 'DEBUG',
     },
     'loggers': {
         'django': {
             'handlers': ['file'],
-            'level': 'INFO',
+            'level': 'DEBUG',
             'propagate': False,
         },
     },
