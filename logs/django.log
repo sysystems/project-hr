@@ -248,3 +248,7 @@ INFO 2025-09-20 20:53:27,024 basehttp 18153 6171029504 "GET /static/core/css/org
 INFO 2025-09-20 20:53:27,025 basehttp 18153 6187855872 "GET /static/core/js/org_chart.js HTTP/1.1" 200 1375
 WARNING 2025-09-20 20:53:27,170 log 18153 6171029504 Not Found: /favicon.ico
 WARNING 2025-09-20 20:53:27,171 basehttp 18153 6171029504 "GET /favicon.ico HTTP/1.1" 404 2452
+INFO 2025-09-20 20:56:09,175 autoreload 18683 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 20:56:44,042 basehttp 18153 6171029504 "GET /org_chart/ HTTP/1.1" 200 2120
+INFO 2025-09-20 20:56:44,096 basehttp 18153 6171029504 "GET /static/core/css/org_chart.css HTTP/1.1" 200 438
+INFO 2025-09-20 20:56:44,098 basehttp 18153 6187855872 "GET /static/core/js/org_chart.js HTTP/1.1" 200 1465
