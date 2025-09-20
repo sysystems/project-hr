@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="{% static 'core/css/org_chart.css' %}">
 </head>
 <body>
-    <div class="container" style="display: flex;">
-        <div class="menu rounded-box" style="width: 200px; margin-right: 20px;">
+    <div class="container" style="display: flex; height: 80vh;">
+        <div class="menu rounded-box" style="width: 200px; margin-right: 20px; overflow-y: auto;">
             <h2>Organization Management</h2>
             <ul>
                 <li><a href="#" onclick="handleMenuClick('create_department')">Create Department</a></li>
@@ -22,16 +22,10 @@
                 <li><a href="#" onclick="handleMenuClick('terminate_employee')">Terminate Employee</a></li>
             </ul>
         </div>
-        <div class="content rounded-box" style="flex: 1;">
+        <div class="content rounded-box" style="flex: 1; overflow: auto;">
             <h1>Organization Chart</h1>
-            <p>Drag and drop employees to move them between departments.</p>
-            <div class="department rounded-box" id="department1">
-                <h3>Department 1</h3>
-                <div class="employee rounded-box" id="employee1" draggable="true">Employee 1</div>
-            </div>
-            <div class="department rounded-box" id="department2">
-                <h3>Department 2</h3>
-                <div class="employee rounded-box" id="employee2" draggable="true">Employee 2</div>
+            <div id="org-chart-container">
+                <!-- 조직도 데이터가 여기에 표시됩니다. -->
             </div>
         </div>
     </div>

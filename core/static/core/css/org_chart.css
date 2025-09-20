@@ -1,28 +1,22 @@
 /* core/static/core/css/org_chart.css */.container {
     display: flex;
+    height: 80vh; /* 화면 높이의 80% */
 }
 
 .menu {
     width: 200px;
     margin-right: 20px;
+    overflow-y: auto; /* 메뉴 내용이 넘치면 스크롤 */
+    padding: 10px;
+    border-right: 1px solid #ccc;
 }
 
 .content {
     flex: 1;
+    overflow: auto; /* 내용이 넘치면 스크롤 */
+    padding: 10px;
 }
-.sidebar {
-    min-height: 100vh;
-    transition: margin-left 0.3s;
-    width: 250px;
-    position: fixed;
-}
-.sidebar.collapsed {
-    margin-left: -250px;
-}
-#content-area {
-    margin-left: 250px;
-    transition: margin-left 0.3s;
-}
-.collapsed + #content-area {
-    margin-left: 0;
+
+#org-chart-container {
+    /* 조직도 컨테이너 스타일 */
 }

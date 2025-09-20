@@ -252,3 +252,20 @@ INFO 2025-09-20 20:56:09,175 autoreload 18683 8428718080 Watching for file chang
 INFO 2025-09-20 20:56:44,042 basehttp 18153 6171029504 "GET /org_chart/ HTTP/1.1" 200 2120
 INFO 2025-09-20 20:56:44,096 basehttp 18153 6171029504 "GET /static/core/css/org_chart.css HTTP/1.1" 200 438
 INFO 2025-09-20 20:56:44,098 basehttp 18153 6187855872 "GET /static/core/js/org_chart.js HTTP/1.1" 200 1465
+INFO 2025-09-20 20:58:25,358 autoreload 19081 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 20:58:45,867 autoreload 19400 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 20:59:26,049 autoreload 19555 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:00:07,123 autoreload 19904 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:00:32,494 basehttp 19904 6162247680 "GET /org_chart/ HTTP/1.1" 200 2120
+INFO 2025-09-20 21:00:32,592 basehttp 19904 6162247680 "GET /static/core/css/org_chart.css HTTP/1.1" 304 0
+INFO 2025-09-20 21:00:32,609 basehttp 19904 6179074048 "GET /static/core/js/org_chart.js HTTP/1.1" 200 2271
+INFO 2025-09-20 21:01:27,317 autoreload 20005 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:02:09,663 autoreload 20237 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:02:41,229 basehttp 20237 6133919744 "GET /org_chart/ HTTP/1.1" 200 2120
+INFO 2025-09-20 21:02:42,213 basehttp 20237 6150746112 "GET /static/core/js/org_chart.js HTTP/1.1" 200 2825
+INFO 2025-09-20 21:02:42,213 basehttp 20237 6133919744 "GET /static/core/css/org_chart.css HTTP/1.1" 200 438
+INFO 2025-09-20 21:03:47,229 autoreload 20485 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:06:29,076 autoreload 20984 8428718080 Watching for file changes with StatReloader
+INFO 2025-09-20 21:06:57,363 basehttp 20984 6163804160 "GET /org_chart/ HTTP/1.1" 200 2120
+INFO 2025-09-20 21:06:57,496 basehttp 20984 6163804160 "GET /static/core/css/org_chart.css HTTP/1.1" 304 0
+INFO 2025-09-20 21:06:57,500 basehttp 20984 6180630528 "GET /static/core/js/org_chart.js HTTP/1.1" 200 3756
